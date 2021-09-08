@@ -1,7 +1,7 @@
 import ReactDOM from "react-dom";
 import React from "react";
 import { Quiz } from "./model/Quiz";
-import { getTestQuiz } from "./data/getQuiz.ts";
+import { getTestQuiz } from "./data/getQuiz";
 import { QuizView } from "./view/QuizView";
 
 const App = () => {
