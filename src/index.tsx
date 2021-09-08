@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
-import { Quiz } from "./model/Quiz";
-import { getTestQuiz } from "./data/getQuiz";
-import { QuizView } from "./view/QuizView";
+import { Quiz } from "model/Quiz";
+import { getTestQuiz } from "data/getQuiz";
+import { QuizView } from "view/QuizView";
 
 const App = () => {
   const quiz = getTestQuiz();
