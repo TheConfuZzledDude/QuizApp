@@ -72,7 +72,7 @@ export function getTestQuiz(): Quiz {
           },
         ],
         explanation:
-          "Canada is a species of goose and rubber ducks though common are not considered alive. That said, the largest rubber duck in the duck has been to Canada and measures 49ft tall.",
+          "Canada is a species of goose and rubber ducks though common are not considered alive. That said, the largest rubber duck in the world has been to Canada and measures 49ft tall.",
       },
       {
         text: "Pick all the boxers",
