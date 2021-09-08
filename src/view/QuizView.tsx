@@ -5,8 +5,6 @@ interface QuizViewProps {
   quiz: Quiz;
 }
 
-export class QuizView extends React.Component<QuizViewProps> {
-  render() {
-    return <p>{JSON.stringify(this.props.quiz)}</p>;
-  }
-}
+export const QuizView = ({ quiz }: QuizViewProps): React.ReactElement => {
+  return <p>{JSON.stringify(quiz)}</p>;
+};

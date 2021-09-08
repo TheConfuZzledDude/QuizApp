@@ -5,7 +5,7 @@ import { getTestQuiz } from "./data/getQuiz";
 import { QuizView } from "./view/QuizView";
 
 const App = () => {
-  const quiz: Quiz = getTestQuiz();
+  const quiz = getTestQuiz();
   return (
     <section>
       <h1>This is my React app!</h1>
