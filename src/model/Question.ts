@@ -1,4 +1,4 @@
-import { Answer } from "./Answer";
+import { Answer } from "model/Answer";
 
 export interface Question {
   text: string;

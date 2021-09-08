@@ -1,5 +1,5 @@
 import React from "react";
-import { Quiz } from "../model/Quiz";
+import { Quiz } from "model/Quiz";
 
 interface QuizViewProps {
   quiz: Quiz;
