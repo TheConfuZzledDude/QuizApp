@@ -1,11 +1,8 @@
-import { answer } from "./answer";
+import { Answer } from "./Answer";
 
-export interface question {
+export interface Question {
   text: string;
   image?: string;
-  answers: {
-    correct: answer[];
-    wrong: answer[];
-  };
+  answers: Answer[];
   explanation?: string;
 }

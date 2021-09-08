@@ -1,5 +1,6 @@
-import { question } from "./question";
+import { Question } from "./Question";
 
-export interface quiz {
-  questions: question[];
+export interface Quiz {
+  title: string;
+  questions: Question[];
 }
